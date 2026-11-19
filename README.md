@@ -1,28 +1,28 @@
-# Dart OOP Assignment: Kigali Bus Card
+ # Dart OOP Assignment: Kigali Bus Card
 
 **Name:** balig hamdi badri ahmed
-**Student ID:** 26344/2024
+**Student ID:** 26344
 
 ## My numbers
-D = 24
+D = 44
 L = 4
-Starting balance = 1240 RWF
-Bus fare = 224 RWF
+Starting balance = 1440 RWF
+Bus fare = 244 RWF
 Student discount = 14%
 
 ## Output of main.dart
 ```text
 Error: name too short
-Owner: balig hamdi badri ahmed | Balance: 1240 RWF
-Owner: balig hamdi badri ahmed | Balance: 1240 RWF
+Owner: balig hamdi badri ahmed | Balance: 1440 RWF
+Owner: balig hamdi badri ahmed | Balance: 1440 RWF
 Error: top-up must be 500 to 50000 RWF
 Topped up 2000 RWF
-Paid 224 RWF
-Paid 224 RWF
-Owner: balig hamdi badri ahmed | Balance: 2792 RWF
-Student discount: 31 RWF
-Paid 193 RWF
-Owner: balig hamdi badri ahmed | Balance: 1047 RWF
+Paid 244 RWF
+Paid 244 RWF
+Owner: balig hamdi badri ahmed | Balance: 2952 RWF
+Student discount: 34 RWF
+Paid 210 RWF
+Owner: balig hamdi badri ahmed | Balance: 1230 RWF
 Student card: 14% off
 ```
 
@@ -51,3 +51,12 @@ My prediction:
 5
 ```
 Explanation: For `a`, `add()` increases `_items` to 1, and `a.items = -5` is ignored because the setter only accepts values `>= 0`, so it prints `1`. For `b` (`BigBag`), each `add()` calls `super.add()` twice, so two calls make `_items` equal to 4, then `b.items = b.items + 1` sets it to 5, so it prints `5`.
+
+Real output:
+```text
+1
+5
+```
+
+Was I right?
+Yes, my prediction matched the real output completely.
